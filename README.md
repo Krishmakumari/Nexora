@@ -46,14 +46,6 @@ npm install
 npm run dev
 ```
 
-### Environment Variables
-Create `.env` file in backend directory:
-```
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/nexora
-FRONTEND_URL=http://localhost:5173
-```
-
 ## 🔗 API Endpoints
 
 - `GET /api/products` - Get all products
@@ -106,26 +98,3 @@ FRONTEND_URL=http://localhost:5173
 - Success confirmation
 - Order details and timestamp
 - Option to start new order
-
-## 🎥 Demo Video
-
-[Demo video link will be provided]
-
-## 👨‍💻 Developer
-
-Built by [Your Name] for Vibe Commerce internship screening.
-
-## 📝 Assignment Requirements Completed
-
-✅ Backend APIs (products, cart, checkout)  
-✅ Frontend React components  
-✅ MongoDB integration  
-✅ Responsive design  
-✅ Error handling  
-✅ Mock checkout process  
-✅ GitHub repository with proper structure  
-✅ README with setup instructions  
-
-## 🚀 Deployment
-
-The application is ready for deployment. Backend can be deployed to services like Railway, Render, or Heroku. Frontend can be deployed to Vercel, Netlify, or similar platforms.
